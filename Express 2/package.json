@@ -1,0 +1,27 @@
+{
+  "name": "express-2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev" : "",
+    "build" : "tsc src/bin.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "devDependencies": {
+    "@jest/globals": "^29.7.0",
+    "@types/express": "^5.0.1",
+    "express": "^5.1.0",
+    "install": "^0.13.0",
+    "ts-jest": "^29.3.1"
+  },
+  "dependencies": {
+    "@types/supertest": "^6.0.3",
+    "supertest": "^7.1.0",
+    "typescript": "^5.8.3"
+  }
+}
